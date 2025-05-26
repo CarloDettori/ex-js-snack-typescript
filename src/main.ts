@@ -32,26 +32,6 @@ switch (typeof apiData) {
     break;
 }
 
-if (typeof apiData === "string") {
-  console.log(apiData.toUpperCase())
-
-} else if (typeof apiData === "number") {
-  console.log(apiData * 2)
-
-} else if (typeof apiData === "boolean") {
-  apiData === true ? console.log("si") : console.log("no")
-
-} else if (apiData === null) {
-  console.log("il dato è vuoto")
-
-} else if (Array.isArray(apiData) === true) {
-  console.log(apiData.length)
-
-} else {
-  console.error("tipo non supportato")
-
-}
-
 //SNACK 2
 
 

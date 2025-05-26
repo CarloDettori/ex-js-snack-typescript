@@ -22,8 +22,6 @@ switch (typeof apiData) {
       console.log("il dato è vuoto")
     } else if (Array.isArray(apiData) === true) {
       console.log(apiData.length)
-    } else if (Array.isArray(apiData) === true) {
-      console.log(apiData.length)
     }
     break;
 
@@ -34,7 +32,28 @@ switch (typeof apiData) {
 
 //SNACK 2
 
+type Dipendente = {
+  nome: string;
+  cognome: string;
+  annoNascita: number;
+  sesso: "m" | "f";
+  anniDiServizio: number[];
+  mail: "anto@azienda.com"
+  contratto: "indeterminato" | "determinato" | "freelance"
 
+}
+
+const impiegato: Dipendente = {
+  nome: "Antonello",
+  cognome: "Antonellucci",
+  annoNascita: 1968,
+  sesso: "m",
+  anniDiServizio: [1995, 1996, 1997, 2004],
+  mail: "anto@azienda.com",
+  contratto: "freelance"
+}
+
+console.log(impiegato)
 
 
 //SNACK 3

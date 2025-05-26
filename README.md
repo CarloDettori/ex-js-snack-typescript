@@ -13,6 +13,12 @@ In tutti gli altri casi: stampa “Tipo non supportato”
 Se è null: stampa “Il dato è vuoto”
 Se è un array: stampa la sua lunghezza
 Se è una Promise: attendi che si risolva e stampa il valore del resolve.
+
+
+
+
+
+
 🏆 Snack 2
 Crea un type alias Dipendente che rappresenta un lavoratore con i seguenti dati:
 
@@ -21,11 +27,20 @@ cognome → stringa
 annoNascita → numero
 sesso → Può essere solo "m" o "f".
 anniDiServizio (array di numeri, es. [2014, 2015, 2017, 2018])
+
 🎯 BONUS
 Il type alias Dipendente, ha anche i seguenti dati:
 
 emailAziendale → Email assegnata al dipendente (non si può modificare)
 contratto → Specifica il tipo di contratto del dipendente, con valori limitati a “indeterminato”, “determinato” o “freelance”.
+
+
+
+
+
+
+
+
 🏆 Snack 3
 Estendiamo Dipendente per definire due ruoli specifici all'interno dell'azienda:
 
@@ -37,6 +52,14 @@ ProjectManager
 teamSize → Il numero di persone nel team gestito dal Project Manager (può essere null se non ha ancora un team assegnato).
 budgetGestito → Il totale del budget annuale gestito dal PM (opzionale).
 stakeholderPrincipali → Un array di stringhe con i nomi dei principali stakeholder con cui il PM collabora (può essere vuoto).
+
+
+
+
+
+
+
+
 🎯 BONUS
 Definiamo un nuovo type alias Team, che rappresenta un gruppo di lavoro all'interno dell'azienda:
 
